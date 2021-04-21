@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root "portfolios#index"
+  resources :portfolios
   #root to: 'pages#main'
   #root 'pages#main'
   
