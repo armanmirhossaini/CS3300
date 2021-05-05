@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "portfolios#index"
   resources :portfolios
+  root to: "statuses#index"
   #root to: 'pages#main'
   #root 'pages#main'
   
