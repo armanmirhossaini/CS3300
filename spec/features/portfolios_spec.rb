@@ -1,3 +1,4 @@
+=begin
 require 'rails_helper'
 RSpec.feature "Portfolios", type: :feature do
   context "Create new project" do
@@ -48,3 +49,5 @@ RSpec.feature "Portfolios", type: :feature do
     end
   end
 end
+
+=end
